@@ -1,0 +1,7 @@
+C:\Users\manik\OneDrive\Desktop\C# .NET Class\VS Projects\Class Projects\Lab\Rock Paper Scissors Lab13\Rock Paper Scissors Lab13\obj\Debug\Rock Paper Scissors Lab13.csprojAssemblyReference.cache
+C:\Users\manik\OneDrive\Desktop\C# .NET Class\VS Projects\Class Projects\Lab\Rock Paper Scissors Lab13\Rock Paper Scissors Lab13\obj\Debug\Rock Paper Scissors Lab13.csproj.CoreCompileInputs.cache
+C:\Users\manik\OneDrive\Desktop\C# .NET Class\VS Projects\Class Projects\Lab\Rock Paper Scissors Lab13\Rock Paper Scissors Lab13\bin\Debug\Rock Paper Scissors Lab13.exe.config
+C:\Users\manik\OneDrive\Desktop\C# .NET Class\VS Projects\Class Projects\Lab\Rock Paper Scissors Lab13\Rock Paper Scissors Lab13\bin\Debug\Rock Paper Scissors Lab13.exe
+C:\Users\manik\OneDrive\Desktop\C# .NET Class\VS Projects\Class Projects\Lab\Rock Paper Scissors Lab13\Rock Paper Scissors Lab13\bin\Debug\Rock Paper Scissors Lab13.pdb
+C:\Users\manik\OneDrive\Desktop\C# .NET Class\VS Projects\Class Projects\Lab\Rock Paper Scissors Lab13\Rock Paper Scissors Lab13\obj\Debug\Rock Paper Scissors Lab13.exe
+C:\Users\manik\OneDrive\Desktop\C# .NET Class\VS Projects\Class Projects\Lab\Rock Paper Scissors Lab13\Rock Paper Scissors Lab13\obj\Debug\Rock Paper Scissors Lab13.pdb
