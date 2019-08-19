@@ -11,27 +11,38 @@ namespace Rock_Paper_Scissors_Lab13
 
         public override string GenerateRoshambo()
         {
-            Console.WriteLine(Name + ": throw rock, paper, or scissors?");
-            string input = Console.ReadLine().Trim().ToLower();
-
-            if (input == "rock")
+            try
             {
-                RoshamboValue value = new RoshamboValue(0);
-                return input.ToString();
-            }
+                Console.WriteLine(Name + ": throw rock, paper, or scissors?");
+                string input = Console.ReadLine().Trim().ToLower();
 
-            if (input == "paper")
+                if (input == "rock")
+                {
+                    RoshamboValue value = new RoshamboValue(0);
+                    return input.ToString();
+                }
+
+                else if(input == "paper")
+                {
+                    RoshamboValue value = new RoshamboValue(1);
+                    return input.ToString();
+                }
+
+                else if (input == "scissors")
+                {
+                    RoshamboValue value = new RoshamboValue(2);
+                    return input.ToString();
+                }
+                else
+                {
+                    throw new Exception();
+                }
+            }
+            catch (Exception e)
             {
-                RoshamboValue value = new RoshamboValue(1);
-                return input.ToString();
+                return "Invalid entry"; 
             }
-
-            else
-            {
-                RoshamboValue value = new RoshamboValue(2);
-                return input.ToString();
-            }
-
+            
 
 
         }

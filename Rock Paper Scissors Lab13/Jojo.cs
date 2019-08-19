@@ -5,16 +5,17 @@ namespace Rock_Paper_Scissors_Lab13
     class Jojo : Player
     {
         Random rand;
-        public Jojo(Random rand) : base("Jojo")
+        public Random Rando { get; set; }
+        public Jojo(string Name, Random rand) : base(Name)
         {
-            this.rand = rand;
+            this.Rando = rand;
         }
 
 
-        public Random Rando { get; set; }
 
         public override string GenerateRoshambo()
         {
+            rand = new Random();
             int random = rand.Next(0, 3);
 
             RoshamboValue value = new RoshamboValue(random);

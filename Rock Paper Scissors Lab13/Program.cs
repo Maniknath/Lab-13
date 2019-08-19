@@ -12,17 +12,17 @@ namespace Rock_Paper_Scissors_Lab13
         {
             Console.WriteLine("Welcome to Rock Paper Scissors game");
 
-            // Mojo m = new Player();
-            Console.WriteLine("What is your name?");
-            string input = Console.ReadLine();
-            Player human = new HumanPlayer(input);
-            Console.WriteLine(human.Name);
+            //// Mojo m = new Player();
+            //Console.WriteLine("What is your name?");
+            //string input = Console.ReadLine();
+            //Player human = new HumanPlayer(input);
+            //Console.WriteLine(human.Name);
 
-            Console.WriteLine();
-            Player m = new Mojo("");
+            //Console.WriteLine();
+            //Player m = new Mojo("");
 
 
-            RoshamboValue roshamboValue = new RoshamboValue();
+            RoshamboApp game = new RoshamboApp();
 
             Console.ReadKey();
         }
